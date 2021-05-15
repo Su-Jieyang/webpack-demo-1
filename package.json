@@ -14,10 +14,15 @@
   "devDependencies": {
     "css-loader": "^5.2.4",
     "dart-sass": "^1.25.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
     "mini-css-extract-plugin": "^1.6.0",
     "sass-loader": "^11.1.1",
     "style-loader": "^2.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^6.0.0",
     "webpack": "5",
     "webpack-cli": "4",
     "webpack-dev-server": "^3.11.2"

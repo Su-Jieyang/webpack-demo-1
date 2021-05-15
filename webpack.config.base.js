@@ -16,6 +16,28 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|svg|jpg|gif)$/i,
+        use: ["file-loader"],
+      },
+      {
+        test: /\.styl$/,
+        use: [
+          // compiles Less to CSS
+          "style-loader",
+          "css-loader",
+          "stylus-loader",
+        ],
+      },
+      {
+        test: /\.less$/i,
+        use: [
+          // compiles Less to CSS
+          "style-loader",
+          "css-loader",
+          "less-loader",
+        ],
+      },
+      {
         test: /\.scss$/i,
         use: [
           // 将 JS 字符串生成为 style 节点
